@@ -46,7 +46,13 @@ public class UsersController : ControllerBase
     {
         var user = await _userService.UpdateUserActiveStatus(
             id,
-            request.Active);
+            request.IsActive!.Value);
+
+        // Note: very basic exception handling here. Global Error handling would be a good improvemnt.
+        if (user is null)
+        {
+            return NotFound(new { message = $"User with ID '{id}' was not found." });
+        }
 
         return Ok(MapUserResponse(user));
     }

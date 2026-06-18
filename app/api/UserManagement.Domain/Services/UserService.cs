@@ -22,13 +22,13 @@ public class UserService : IUserService
         return _userRepository.GetUsersAsync();
     }
 
-    public async Task<User> UpdateUserActiveStatus(Guid userId, bool isActive)
+    public async Task<User?> UpdateUserActiveStatus(Guid userId, bool isActive)
     {
         var user = await _userRepository.GetUserById(userId);
 
         if (user is null)
         {
-            throw new KeyNotFoundException($"User with ID '{userId}' was not found.");
+            return null;
         }
 
         return await _userRepository.SetUserActiveState(user, isActive);
