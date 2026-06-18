@@ -1,4 +1,4 @@
-const usersBaseUrl = '/api/users';
+const usersBaseUrl = 'http://localhost:5258/api/users';
 
 export const userApi = {
   getAllUsers: usersBaseUrl,
