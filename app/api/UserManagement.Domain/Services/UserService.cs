@@ -1,4 +1,5 @@
 using UserManagement.Domain.Models;
+using UserManagement.Domain.Exceptions;
 using UserManagement.Domain.Repositories;
 
 namespace UserManagement.Domain.Services;
@@ -29,6 +30,11 @@ public class UserService : IUserService
         if (user is null)
         {
             return null;
+        }
+
+        if (!isActive && user.Active && user.Roles.Contains("Admin"))
+        {
+            throw new AdminCannotBeDisabledException();
         }
 
         return await _userRepository.SetUserActiveState(user, isActive);

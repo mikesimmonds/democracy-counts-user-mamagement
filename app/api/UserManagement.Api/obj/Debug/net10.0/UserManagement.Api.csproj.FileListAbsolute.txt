@@ -9,6 +9,7 @@
 /Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/Microsoft.AspNetCore.OpenApi.dll
 /Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
 /Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
 /Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/UserManagement.Domain.dll
 /Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/bin/Debug/net10.0/UserManagement.Domain.pdb
