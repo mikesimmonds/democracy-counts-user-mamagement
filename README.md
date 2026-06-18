@@ -5,11 +5,9 @@
 - Node.js and npm
 
 ## Project structure
-This repository contains two separate applications with separate toolchains:
+This repository contains two separate applications:
 - API: .NET backend under `app/api/`
 - Frontend: Angular app under `app/ui/`
-
-There is no root-level command that runs both applications together.
 
 ## Running the API
 Start the backend from the repository root:
