@@ -1,0 +1,12 @@
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/bin/Debug/net10.0/UserManagement.Domain.deps.json
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/bin/Debug/net10.0/UserManagement.Domain.dll
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/bin/Debug/net10.0/UserManagement.Domain.pdb
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.AssemblyInfoInputs.cache
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.AssemblyInfo.cs
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.csproj.CoreCompileInputs.cache
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.sourcelink.json
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.dll
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/refint/UserManagement.Domain.dll
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/UserManagement.Domain.pdb
+/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Domain/obj/Debug/net10.0/ref/UserManagement.Domain.dll

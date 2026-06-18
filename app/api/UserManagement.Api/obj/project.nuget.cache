@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "UWNyNgBm+GM=",
+  "dgSpecHash": "2lMlTl5qsaI=",
   "success": true,
   "projectFilePath": "/Users/mikesimmonds/workspace/democracy-counts/technical-test/user-management/app/api/UserManagement.Api/UserManagement.Api.csproj",
   "expectedPackageFiles": [
     "/Users/mikesimmonds/.nuget/packages/microsoft.aspnetcore.openapi/10.0.5/microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "/Users/mikesimmonds/.nuget/packages/microsoft.entityframeworkcore/10.0.5/microsoft.entityframeworkcore.10.0.5.nupkg.sha512",
+    "/Users/mikesimmonds/.nuget/packages/microsoft.entityframeworkcore.abstractions/10.0.5/microsoft.entityframeworkcore.abstractions.10.0.5.nupkg.sha512",
+    "/Users/mikesimmonds/.nuget/packages/microsoft.entityframeworkcore.analyzers/10.0.5/microsoft.entityframeworkcore.analyzers.10.0.5.nupkg.sha512",
     "/Users/mikesimmonds/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
   ],
   "logs": []

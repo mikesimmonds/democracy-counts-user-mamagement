@@ -13,4 +13,7 @@
     <SourceRoot Include="/Users/mikesimmonds/.nuget/packages/" />
     <SourceRoot Include="/usr/local/share/dotnet/sdk/NuGetFallbackFolder/" />
   </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/10.0.5/buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/10.0.5/buildTransitive/net10.0/Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
 </Project>
