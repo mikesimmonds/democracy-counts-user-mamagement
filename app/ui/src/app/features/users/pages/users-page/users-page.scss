@@ -1,0 +1,41 @@
+.users-page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.page-header {
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font: var(--mat-sys-headline-medium);
+}
+
+.status-note {
+  margin: 0;
+  color: var(--mat-sys-on-surface-variant);
+}
+
+.error-message {
+  margin: 0 0 1rem;
+  color: #b3261e;
+}
+
+.loading-message {
+  margin: 1rem 0 0;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.users-table {
+  width: 100%;
+}
+
+.empty-state {
+  padding: 1rem;
+  text-align: center;
+}
