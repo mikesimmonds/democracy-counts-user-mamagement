@@ -31,3 +31,6 @@ yarn-error.log*
 .env.*
 !.env.example
 /app/api/UserManagement.Api/obj/
+/app/api/UserManagement.Api/obj/
+/app/api/UserManagement.Tests/obj/
+/app/api/UserManagement.Tests/bin/

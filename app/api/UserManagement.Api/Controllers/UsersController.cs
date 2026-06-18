@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using UserManagement.Api.DTOs;
+using UserManagement.Domain.Exceptions;
 using UserManagement.Domain.Models;
 using UserManagement.Domain.Services;
 
@@ -44,17 +45,23 @@ public class UsersController : ControllerBase
         [FromRoute] Guid id,
         [FromBody] UpdateUserStatusRequestDto request)
     {
-        var user = await _userService.UpdateUserActiveStatus(
-            id,
-            request.IsActive!.Value);
-
-        // Note: very basic exception handling here. Global Error handling would be a good improvemnt.
-        if (user is null)
+        try
         {
-            return NotFound(new { message = $"User with ID '{id}' was not found." });
-        }
+            var user = await _userService.UpdateUserActiveStatus(
+                id,
+                request.IsActive!.Value);
 
-        return Ok(MapUserResponse(user));
+            if (user is null)
+            {
+                return NotFound(new { message = $"User with ID '{id}' was not found." });
+            }
+
+            return Ok(MapUserResponse(user));
+        }
+        catch (AdminCannotBeDisabledException ex)
+        {
+            return Conflict(new { message = ex.Message });
+        }
     }
 
     private static UserResponse MapUserResponse(User user)
