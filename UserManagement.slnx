@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/app/" />
+  <Folder Name="/app/api/">
+    <Project Path="app/api/UserManagement.Api/UserManagement.Api.csproj" />
+    <Project Path="app/api/UserManagement.Domain/UserManagement.Domain.csproj" />
+    <Project Path="app/api/UserManagement.Tests/UserManagement.Tests.csproj" />
+  </Folder>
+</Solution>
